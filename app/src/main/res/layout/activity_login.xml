@@ -93,6 +93,7 @@
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/buttonselector"
+        android:onClick="abricancel"
         android:text="Cancel"
         android:textColor="@color/textselector"
         app:layout_constraintEnd_toStartOf="@id/guideline2"
