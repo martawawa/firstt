@@ -32,16 +32,14 @@ public class Splash extends AppCompatActivity {
         thunder.startAnimation(myanim);
 
         //    Glide para cargar el fondo
-        ImageView mSea = findViewById(R.id.fondo);
+        ImageView fondo = findViewById(R.id.fondo);
 
         Glide.with(this)
               .load(R.drawable.img)
-                .transition(DrawableTransitionOptions.withCrossFade(100))
+                .transition(DrawableTransitionOptions.withCrossFade(50))
                 .centerCrop()
-//                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
-//                .circleCrop()
-                .into(mSea);
+                .into(fondo);
 
     }
 

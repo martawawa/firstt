@@ -24,6 +24,7 @@ public class Login extends AppCompatActivity {
 
         //LINEA PARA NO ACTION BAR
         getSupportActionBar().hide();
+
         //ANIMATION LOGO
         TextView signup = findViewById(R.id.textsignup);
 

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Fundamentals</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
     <string name="title_activity_tabbed">Tabbed</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
