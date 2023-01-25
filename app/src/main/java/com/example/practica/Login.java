@@ -57,13 +57,9 @@ public class Login extends AppCompatActivity {
         Intent intent = new Intent(Login.this, Signup.class);
         startActivity(intent);
     }
-    public void abrirlogin(View view) {
-        Intent intent = new Intent(Login.this, Signup.class);
+    public void openMain(View view) {
+        Intent intent = new Intent(Login.this, Main.class);
         startActivity(intent);
     }
 
-    public void abricancel(View view) {
-        Intent intent = new Intent(Login.this, Signup.class);
-        startActivity(intent);
-    }
 }

@@ -1,3 +1,5 @@
 # First project
 
-!(hls)[]
+## Logo de la app
+
+![Logo](img/logo.png)
