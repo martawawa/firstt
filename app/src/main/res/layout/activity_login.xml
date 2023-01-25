@@ -11,7 +11,7 @@
         android:id="@+id/logo"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="130dp"
         android:src="@drawable/persona"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Username">
+            android:hint="Username"
+            android:backgroundTint="@color/menta">
 
         </EditText>
 
@@ -52,6 +53,7 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:hint="Password"
+            android:backgroundTint="@color/menta"
             android:inputType="textPassword">
 
         </EditText>
@@ -67,6 +69,7 @@
         android:onClick="abrirlogin"
         android:text="Login"
         android:textColor="@color/textselector"
+        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@id/tilpassword">
     </Button>
@@ -90,7 +93,10 @@
         app:layout_constraintTop_toBottomOf="@id/login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Have you got an account? Sign up here">
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="Have you got an account? Sign up here"
+        android:textColor="@color/black">
 
     </TextView>
 

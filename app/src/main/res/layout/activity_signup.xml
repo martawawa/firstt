@@ -24,15 +24,15 @@
         android:id="@+id/user"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintTop_toBottomOf="@id/logo"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
-        app:layout_constraintEnd_toEndOf="@id/rightGuide"
-        >
+        app:layout_constraintEnd_toEndOf="@id/rightGuide">
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/azul_c"
+            android:background="@color/menta"
             android:hint="Username">
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -44,12 +44,13 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/user"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
-        app:layout_constraintEnd_toEndOf="@id/rightGuide">
+        app:layout_constraintEnd_toEndOf="@id/rightGuide"
+        android:layout_marginTop="2dp">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/azul_c"
+            android:background="@color/menta"
             android:hint="Email">
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -62,11 +63,12 @@
         app:layout_constraintTop_toBottomOf="@id/addemail"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
+        android:layout_marginTop="2dp"
         >
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/azul_c"
+            android:background="@color/menta"
             android:hint="Password">
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -79,36 +81,39 @@
         app:layout_constraintTop_toBottomOf="@id/addpassword"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
+        android:layout_marginTop="2dp"
         >
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/azul_c"
+            android:background="@color/menta"
             android:hint="Confirm Password">
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <ImageButton
-        android:id="@+id/btCheck"
-        android:src="@drawable/ic_planet_svgrepo_com"
+    <Button
+        android:id="@+id/confirm"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/azul_c"
-        app:tint="@color/black"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"
+        android:text="CONFIRM"
+        android:layout_marginTop="15dp"
         app:layout_constraintTop_toBottomOf="@id/ConfirmP"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         />
 
-    <ImageButton
-        android:id="@+id/btCancel"
-        android:src="@drawable/ic_planet_svgrepo_com"
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/azul_c"
-        app:tint="@color/black"
-        app:layout_constraintStart_toEndOf="@+id/btCheck"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="CANCEL"
+        app:layout_constraintTop_toBottomOf="@id/ConfirmP"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
-        app:layout_constraintTop_toTopOf="@+id/btCheck"/>
+        />
 
 <!--Margenes-->
     <androidx.constraintlayout.widget.Guideline
