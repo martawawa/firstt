@@ -18,6 +18,15 @@ La foto de perfil realiza una animación
 
 Botones para login y enlace para la pagina de signup
 
-![botones](img/botoneslogin.png)
-
 ![botones](img/signup.png)
+
+### Signup
+
+![botones](img/img.png)
+
+### Página de registro
+
+(in progress)
+
+![Done](img/done.png)
+
